@@ -1,6 +1,6 @@
 {
   "name": "@vmcodes/node-spdy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SPDY Server fork.",
   "keywords": [
     "spdy"
