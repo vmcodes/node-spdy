@@ -1,0 +1,35 @@
+{
+  "name": "@vmcodes/node-spdy",
+  "version": "0.0.2",
+  "description": "SPDY Server fork.",
+  "keywords": [
+    "spdy"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --reporter=spec test/*-test.js",
+    "format": "npx prettier --write ."
+  },
+  "pre-commit": [
+    "format"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vmcodes/node-spdy"
+  },
+  "author": "vmcodes",
+  "dependencies": {
+    "debug": "^4.3.7",
+    "handle-thing": "^2.0.1",
+    "select-hose": "^2.0.0",
+    "spdy-transport": "^3.0.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^10.7.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^3.3.3",
+    "standard": "^17.1.0"
+  },
+  "main": "./lib/spdy"
+}
